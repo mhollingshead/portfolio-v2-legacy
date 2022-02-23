@@ -1,0 +1,20 @@
+.Contact {
+    &__head {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.25rem;
+
+        a {
+            font-size: 1.5rem;
+            margin-left: 0.5rem;
+        }
+    }
+    li {
+        padding-bottom: 1rem;
+    }
+
+    .devicon, .icon {
+        font-size: 1.5rem;
+        color: white;
+    }
+}

@@ -1,0 +1,39 @@
+.Tech {
+    &__groups {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+            & > * {
+                margin-bottom: 1rem;
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                }
+    
+                li {
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
+    &__group {
+        width: 13.125rem;
+
+        @media screen and (max-width: 900px) {
+            width: auto;
+        }
+    }
+    &__technology {
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 0.5rem;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.App {
+  overflow-y: scroll;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: scroll;
+
+  &__content {
+    min-width: 12.5rem;
+    max-width: 61.25rem;
+    margin: 2.25rem auto 0 auto;
+    box-sizing: border-box;
+    padding: 2rem 2.75rem;
+
+    @media screen and (max-width: 400px) {
+      padding: 0 1rem;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.Footer {
+    width: 100vw !important;
+    background-color: #161b22;
+    padding: 0.5rem 0;
+
+    &__content {
+        min-width: 12.5rem;
+        max-width: 61.25rem;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 0.75rem;
+        color: grey;
+        font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    }
+}
