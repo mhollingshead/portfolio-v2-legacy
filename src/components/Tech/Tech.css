@@ -1,0 +1,36 @@
+.Tech__groups {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .Tech__groups {
+    flex-direction: column;
+  }
+  .Tech__groups > * {
+    margin-bottom: 1rem;
+  }
+  .Tech__groups > * ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Tech__groups > * li {
+    margin-left: 2rem;
+  }
+}
+.Tech__group {
+  width: 13.125rem;
+}
+@media screen and (max-width: 900px) {
+  .Tech__group {
+    width: auto;
+  }
+}
+.Tech__technology {
+  display: flex;
+  align-items: center;
+}
+.Tech__technology span {
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=Tech.css.map */

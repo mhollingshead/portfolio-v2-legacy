@@ -1,0 +1,95 @@
+.Nav {
+  width: 100vw;
+  background-color: #0927d1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.Nav__content {
+  display: flex;
+  min-width: 12.5rem;
+  max-width: 61.25rem;
+  margin: 0 auto;
+  padding: 0.5rem 2.75rem;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 400px) {
+  .Nav__content {
+    padding: 0.5rem 1rem;
+  }
+}
+.Nav__list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0;
+}
+.Nav__list a {
+  cursor: pointer;
+  opacity: 0.8;
+  text-decoration: none;
+  color: white;
+}
+.Nav__list a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.Nav__list a:visited {
+  color: white;
+}
+.Nav__divider {
+  padding: 0 0.5rem;
+  opacity: 0.33;
+}
+.Nav__toggle {
+  margin-left: auto;
+  border: 2px solid white;
+  box-sizing: border-box;
+  height: 1.25rem;
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.25rem;
+  opacity: 0.8;
+}
+.Nav__toggle > *:first-child {
+  margin-right: 0.25rem;
+}
+.Nav__toggle:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.Nav__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.Nav__links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.Nav__links a {
+  text-decoration: none;
+  color: white !important;
+  opacity: 0.8;
+  max-height: 16px;
+  margin-left: 0.5rem;
+}
+.Nav__links a:hover {
+  opacity: 1;
+}
+.Nav__links a:last-child {
+  height: 20px;
+  max-height: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .mobile-hidden {
+    display: none;
+  }
+}/*# sourceMappingURL=Nav.css.map */

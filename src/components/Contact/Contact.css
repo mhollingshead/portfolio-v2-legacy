@@ -1,0 +1,16 @@
+.Contact__head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+.Contact__head a {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+.Contact li {
+  padding-bottom: 1rem;
+}
+.Contact .devicon, .Contact .icon {
+  font-size: 1.5rem;
+  color: white;
+}/*# sourceMappingURL=Contact.css.map */

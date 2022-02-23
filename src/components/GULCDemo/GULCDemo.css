@@ -1,0 +1,193 @@
+.LinguistChartDemo {
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+.LinguistChartDemo__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+.LinguistChartDemo__avatar {
+  width: 4rem !important;
+  height: 4rem;
+  border-radius: 2rem !important;
+}
+.LinguistChartDemo__metadata {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.LinguistChartDemo__name {
+  font-size: 1.625rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+.LinguistChartDemo__username {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.LinguistChartDemo__description {
+  font-size: 0.875rem;
+  margin: 0 1rem 1rem 1rem;
+  padding-bottom: 1rem;
+}
+.LinguistChartDemo__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.LinguistChartDemo__item {
+  padding: 0 1rem 0.5rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.LinguistChartDemo__modules {
+  padding: 0 1rem;
+}
+
+.LinguistChartDemo {
+  border: 1px solid #161b22;
+  background-color: #161b22;
+}
+
+.LinguistChartDemo__avatar {
+  box-sizing: border-box;
+  border: 2px solid #30363d;
+}
+
+.LinguistChartDemo__name {
+  color: #c9d1d9;
+}
+
+.LinguistChartDemo__username {
+  color: #8b949e;
+}
+
+.LinguistChartDemo__data {
+  background-color: #c9d1d9;
+}
+
+.LinguistChartDemo__label {
+  color: #8b949e;
+}
+
+.LinguistChartDemo__description {
+  border-bottom: 1px solid #21262d;
+}
+
+.LinguistChartDemo__list {
+  border-bottom: 1px solid #30363d;
+}
+
+.LinguistChartDemo__item {
+  border-bottom: 2px solid #161b22;
+}
+
+.LinguistChartDemo__item--active {
+  border-bottom: 2px solid #f78166;
+}
+
+.extension-block * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.lang-figure {
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 16px 16px 4px 16px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.lang-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.lang-item {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+
+.lang-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.lang-label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.lang-percent {
+  font-size: 12px;
+  margin-right: 4px;
+  color: #8b949e;
+}
+
+.lang-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bar-language {
+  height: 8px;
+}
+
+.bar-language:last-child {
+  border-right: none;
+}
+
+.f4 {
+  font-size: 16px !important;
+  color: #c9d1d9;
+}
+
+.mb-2 {
+  margin-bottom: 8px !important;
+}
+
+.text-normal {
+  font-weight: 400 !important;
+}
+
+.snip {
+  height: 2rem;
+  overflow-y: hidden;
+  position: relative;
+}
+.snip .lang-figure {
+  margin-top: 0;
+}
+.snip::after {
+  position: absolute;
+  content: "";
+  top: -4rem;
+  left: -2rem;
+  width: calc(100% + 4rem);
+  height: calc(100% + 4rem);
+  overflow: hidden;
+  box-shadow: inset -8px 0 16px 16px #161b22;
+}/*# sourceMappingURL=GULCDemo.css.map */

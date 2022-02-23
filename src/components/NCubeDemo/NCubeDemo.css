@@ -1,0 +1,19 @@
+.NCubeDemo {
+  width: 100%;
+}
+.NCubeDemo__form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.NCubeDemo__form label {
+  margin-right: 0.5rem;
+}
+.NCubeDemo__form input {
+  width: 100%;
+}
+.NCubeDemo__wrapper {
+  background-color: #161b22;
+  border-radius: 0.25rem;
+  text-align: center;
+}/*# sourceMappingURL=NCubeDemo.css.map */

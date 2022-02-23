@@ -1,0 +1,49 @@
+.Header {
+  width: 100%;
+  display: flex;
+  padding: 2rem 0;
+}
+@media screen and (max-width: 900px) {
+  .Header {
+    flex-direction: column;
+  }
+}
+.Header__panel:first-child {
+  width: 20%;
+  pointer-events: none;
+}
+.Header__panel:first-child img {
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  .Header__panel:first-child {
+    width: 100%;
+    text-align: center;
+  }
+  .Header__panel:first-child img {
+    width: 12.5rem;
+    margin-bottom: 2rem;
+  }
+}
+.Header__panel:last-child {
+  width: 80%;
+  padding-left: 2rem;
+}
+@media screen and (max-width: 900px) {
+  .Header__panel:last-child {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+.Header__panel:last-child h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .Header__panel:last-child h1 {
+    font-size: 2rem;
+  }
+}
+.Header__badges {
+  text-align: center;
+}/*# sourceMappingURL=Header.css.map */
