@@ -1,5 +1,4 @@
 html {
-    color-scheme: dark;
     --color-prettylights-syntax-comment: #8b949e;
     --color-prettylights-syntax-constant: #79c0ff;
     --color-prettylights-syntax-entity: #d2a8ff;
@@ -42,6 +41,10 @@ html {
     --color-accent-emphasis: #1f6feb;
     --color-attention-subtle: rgba(187,128,9,0.15);
     --color-danger-fg: #f85149;
+  }
+  body {
+    background-color: var(--color-canvas-default);
+    color: var(--color-fg-default);
   }
   
   .markdown-body {
